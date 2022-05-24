@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/* Variaveis */
+:root {
+  --cor-primaria: rgb(255, 255, 0);
+  --cor-secundaria: rgb(129, 1, 129);
+  --cor-secundaria-hover: #d405d4;
+  --cor-titulo: rgb(172, 155, 7);
+}
+/* Fontes */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+/* Body */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  background: black;
+  color: #1e1e27;
+}
+
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+a {
+  padding: 3px;
+}
+
+h1 {
+  color: var(--cor-secundaria);
+}
+
+label {
+  color: var(--cor-primaria);
+}
+
+.text {
+  color: white;
+}
+.text:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.signin {
+  color: var(--cor-primaria);
+}
+
+.signin:hover {
+  color: var(--cor-secundaria-hover);
+  text-decoration: none;
+}
+
+.button {
+  background: var(--cor-secundaria);
+  color: var(--cor-primaria);
+  margin-top: 20px;
+  width: 180px;
+}
+
+.button:hover {
+  background: var(--cor-secundaria-hover);
+}
